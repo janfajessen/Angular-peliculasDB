@@ -13,6 +13,19 @@
         padding: 1em;
         position: relative;
         text-decoration: unset;
+    @media(max-width: 500px) {
+         grid-template-columns: 10em 2fr;
+         height: 75px;
+         padding: 0.2em;
+     }
+     h2 {
+
+     }
+     span {
+       @media(max-width: 500px){
+         display: none
+        }
+      }
 
         &>* {
             z-index: 1;
