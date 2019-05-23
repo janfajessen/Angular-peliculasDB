@@ -9,7 +9,6 @@ import { NavigationComponent } from './navigation/navigation.component';
 import {ApiMoviesService} from './api-movies.service';
 import {HttpClientModule} from '@angular/common/http';
 import { MoviesDisplayComponent } from './movies-display/movies-display.component';
-import { MovieListComponent } from './movie-list/movie-list.component';
 import { MoviesSearchComponent } from './movies-search/movies-search.component';
 import {FormsModule} from '@angular/forms'
 
@@ -20,7 +19,6 @@ import {FormsModule} from '@angular/forms'
     MovieDetailComponent,
     NavigationComponent,
     MoviesDisplayComponent,
-    MovieListComponent,
     MoviesSearchComponent
   ],
   imports: [

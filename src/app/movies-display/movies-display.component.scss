@@ -5,6 +5,10 @@
     grid-gap: 1em;
     justify-content: center;
     background: rgb(77,77,77);
+        @media(max-width: 500px) {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, 125px);
+        }
 
     .movie {
         color: bisque;
@@ -14,18 +18,16 @@
         position: relative;
         text-decoration: unset;
     @media(max-width: 500px) {
-         grid-template-columns: 10em 2fr;
-         height: 75px;
-         padding: 0.2em;
+         height: 85px;
+         padding: 3px;
      }
      h2 {
+       @media(max-width: 500px) {
+         font-size: 0.7em;
+       }
 
      }
-     span {
-       @media(max-width: 500px){
-         display: none
-        }
-      }
+
 
         &>* {
             z-index: 1;
