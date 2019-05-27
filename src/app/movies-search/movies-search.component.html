@@ -1,5 +1,5 @@
 
-  <input type="text" [(ngModel)]="query" (keyup.enter)="search()" placeholder="buscar">
+  <input type="text" [(ngModel)]="query" (keyup)="search()" placeholder="buscar">
 
   <h1 *ngIf="moviesFound.length === 0 && query">No se ha encontrado...</h1>
 
